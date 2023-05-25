@@ -14,7 +14,7 @@ class HomePage(MethodView):
 class BillFormPage(MethodView):
 
     def get(self):
-        return "I am the bill form page!"
+        return render_template('bill_form_page.html')
 
 
 class ResultsPage(MethodView):
